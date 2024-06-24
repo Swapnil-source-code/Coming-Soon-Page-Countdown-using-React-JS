@@ -62,3 +62,48 @@
     opacity: 1;
   }
 }
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .content {
+    top: 40%;
+  }
+  .content h1 {
+    font-size: 45px;
+  }
+  .launch-time div p {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .container .rocket {
+    width: 200px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .content {
+    top: 40%;
+  }
+  .container{
+    padding:  0 5%;
+  }
+  .content h1 {
+    font-size: 51px;
+  }
+  .launch-time {
+    margin-top: 15px;
+  }
+  .launch-time div p {
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: 500;
+  }
+  .launch-time .label {
+    font-size: 14px;
+  }
+  .container .rocket {
+    width: 200px;
+  }
+}

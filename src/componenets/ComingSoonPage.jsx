@@ -37,7 +37,7 @@ const ComingSoonPage = () => {
       <div className="container">
         <div className="content">
           <p>Website Under Maintenance</p>
-          <h1>We're <span>Launching</span> Soon</h1>
+          <h1>We&apos;re <span>Launching</span> Soon</h1>
           <div className="launch-time">
             <div>
               <p id="days">{timeRemaining.days}</p>
